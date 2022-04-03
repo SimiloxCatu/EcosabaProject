@@ -1,0 +1,17 @@
+Xampp 		7.4.28 / PHP 7.4.28
+Composer 	v2.3.2
+
+Colocar el proyecto dentro de la siguiente direccion C:\xampp\htdocs
+
+dentro del proyecto ejecutar los siguientes comandos
+npm install vue
+npm install vue-router
+npm install vue-axios
+npm install
+
+Crear una base de datos en phpmyadmin con el nombre de "ecosabaproject"
+php artisan migrate // para crear la tabla y los campos
+php artisan db:seed // insertar los datos del seeder
+
+npm run dev //para compilar los cambios
+php artisan serve // ejecutar el servidor
